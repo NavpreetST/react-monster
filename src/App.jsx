@@ -9,14 +9,16 @@ function App() {
   const Password = () =>{
     return isValid ? ValidPassword() : InvalidPassword()
   }
+  const style = { color: "blue", backgroundColor: "lightgrey", borderRadius: "20px", padding: "40px"}
   return (
     
   
-    <div>
+    <div style={style}>
       <button style = {{ color: "blue" }} onClick={()=> setIsValid(!isValid)}>On/Off</button>
       <Password/>
 
-      <h1 style = {{ color: "blue", backgroundColor: "red", borderRadius: "200px"}}>Nothing to see here.</h1>
+      <h1 > This is my heading  </h1>
+      <p >To generate "lorem ipsum" placeholder text within JSX, you can use the Emmet abbreviation lorem followed by a number to specify the number of words, and then expand it with tab. For example, lorem5 will generate "lorem ipsum dolor sit amet". You can also use the react-lorem-ipsum npm package to generate multiple paragraphs or sentences, and customize the output. </p>          
     </div>
     
   )
