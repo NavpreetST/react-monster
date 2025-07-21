@@ -1,3 +1,4 @@
+import ExampleOne from "./components/ExampleOne"
 
 function App() {
 
@@ -7,7 +8,7 @@ function App() {
     
    
     <div>
-      
+      <ExampleOne/>
     </div>
     
   )
