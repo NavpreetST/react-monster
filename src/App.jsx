@@ -6,6 +6,7 @@ import Profile from "./components/Profile"
 import ShopList from "./components/shopList"
 import ShoppingList from "./components/ShoppingList"
 import TodoList from "./components/TodoList"
+import Board from "./pages/Board"
 
 function App() {
 
@@ -16,14 +17,14 @@ function App() {
    
     <div>
       <h1>hii</h1>
-      <ExampleThree/>,
+      {/* <ExampleThree/>,
       <Counter/>,
       <TodoList/>,
       <Profile/>,
       <ShoppingList/>,
       <ShopList/>,
-      <CopyInput/>,
-      
+      <CopyInput/>, */}
+      <Board/>
       {/* <ExampleOne/>, */}
     </div>
     
