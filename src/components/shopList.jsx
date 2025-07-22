@@ -23,14 +23,7 @@ const ShopList = () => {
 
 
 
-    // const handleChange = e =>{
-    //     const {list, quantity} = e.target
-    //     newList((prevshoppingList)=>(
-
-    //         {...prevshoppingList, [list]:value}
-    //     )
-    //     )
-    // }
+    
   return (
     <div>
         <h1>Shopping List</h1>
