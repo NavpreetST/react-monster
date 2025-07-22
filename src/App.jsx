@@ -1,3 +1,4 @@
+import CopyInput from "./components/CopyInput"
 import Counter from "./components/Counter"
 import ExampleOne from "./components/ExampleOne"
 import ExampleThree from "./components/ExampleThree"
@@ -21,6 +22,7 @@ function App() {
       <Profile/>,
       <ShoppingList/>,
       <ShopList/>,
+      <CopyInput/>,
       
       {/* <ExampleOne/>, */}
     </div>
